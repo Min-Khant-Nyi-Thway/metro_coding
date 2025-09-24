@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class PyramidStr {
 
-    public static void printPattern(int num)
+    public static void printPattern(int num) // Argument (method name => printPattern)
     {
         int i, j;        
         
@@ -25,6 +25,6 @@ public class PyramidStr {
         System.out.println("Enter Rows Numbers for Pyramid");
 
         int num = scan.nextInt();
-        printPattern(num);
+        printPattern(num); 
     }
 }
